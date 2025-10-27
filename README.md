@@ -56,6 +56,8 @@ A collection of tools that is packaged into an easy to use script that is stream
 <a href="https://youtu.be/06T-h-jPVx8?si=pTWAlmcYyk9fHa38"> <img src="https://github.com/ryanrudolfoba/SteamOS-Waydroid-Installer/blob/main/android.webp"/> </a>
 </p>
 
+# forked: made compat with other distros running yay and pacman and neptune kernel 
+
 # What's New (as of July 28 2025)
 1. Sanity check updated - instead of kernel version check it will check if running on SteamOS stable / SteamOS beta
 2. Auto build the binder kernel module
