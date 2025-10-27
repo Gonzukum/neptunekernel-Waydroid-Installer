@@ -18,7 +18,6 @@ then
 	echo SteamOS $steamos_version detected. Proceed to the next step.
 else
 	echo SteamOS $steamos_version detected. This is unsupported version.
-	exit
 fi
 
 # sanity check - make sure the update channel is rel (stable) or beta
@@ -28,7 +27,6 @@ then
 	echo SteamOS $(steamos-select-branch -c) branch detected. Proceed to the next step.
 else
 	echo SteamOS $(steamos-select-branch -c) branch detected. This script is only tested to work with STABLE or BETA branch of SteamOS.
-	exit
 fi
 
 # sanity check - make sure there is enough free space in the home partition (at least 5GB)
@@ -101,4 +99,5 @@ then
 		exit
 	fi
 fi
+
 
