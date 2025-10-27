@@ -2,7 +2,24 @@
 
 note: use yay to install wlroots manually
 
-also ignore warnings unless it kicks you out i just removed some exits to get it installed
+also ignore warnings unless it kicks you out - i just removed some exits to get it installed.
+
+its reccomended you install this: https://github.com/unlbslk/arch-deckify
+
+and add these repos: 
+[jupiter-3.7]
+Server = https://steamdeck-packages.steamos.cloud/archlinux-mirror/jupiter>
+SigLevel = Never
+
+[holo-rel]
+Server = https://steamdeck-packages.steamos.cloud/archlinux-mirror/$repo/o>
+SigLevel = Never
+
+located in: /etc/pacman.conf
+
+add the latest neptune kernel and headers 
+
+i forked this repo as i use rebornos and use some steamos things without it being steamos all while using neptune kernel newer then steamos
 
 A collection of tools that is packaged into an easy to use script that is modifed to work with the Steam Deck running on other distros with arch and neptune kernel.
 * The main program that does all the heavy lifting is [Waydroid - a container-based approach to boot a full Android system on a regular GNU/Linux system.](https://github.com/waydroid/waydroid)
