@@ -293,5 +293,5 @@ then
 fi
 
 if zenity --question --text="Do you Want to Return to Gaming Mode?"; then
-	qdbus org.kde.Shutdown /Shutdown org.kde.Shutdown.logout
+	steamos-session-select gamescope
 fi
