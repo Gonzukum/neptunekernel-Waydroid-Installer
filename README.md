@@ -9,18 +9,6 @@ A collection of tools that is packaged into an easy to use script that is stream
 
 **NOTE - this repository uses `main` and `testing` branches.**
 
-**`testing`** - this is where new updates / features are pushed and sits for 1-2 weeks to make sure that bugs are squashed and eliminated. You can access it via this command -
-```
-git clone --depth=1 -b testing https://github.com/ryanrudolfoba/steamos-waydroid-installer
-```
-
-**`main`** this is updated after 1-2 weeks in `testing` branch. You can access it via this command -
-```
-git clone --depth=1 https://github.com/ryanrudolfoba/steamos-waydroid-installer
-```
-
-**Script has gone through several updates - this now allows you to install Android 11 / Android 13 and their TV counterparts - Android 11 TV / Android 13 TV!**
-
 | [SteamOS Waydroid Android Install Guide](https://www.youtube.com/watch?v=06T-h-jPVx8) | [SteamOS Waydroid Android Upgrade Guide](https://youtu.be/CJAMwIb_oI0) |
 | ------------- | ------------- |
 | [![image](https://github.com/user-attachments/assets/2f531480-2786-4ca7-9505-51a5b7443ff3)](https://youtu.be/06T-h-jPVx8)  | [![image](https://github.com/user-attachments/assets/88bb1e93-2f80-4ed0-82f1-1cbe78e04a2f)](https://youtu.be/CJAMwIb_oI0)  |
