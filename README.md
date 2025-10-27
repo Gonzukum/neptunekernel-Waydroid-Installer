@@ -2,6 +2,8 @@
 
 note: use yay to install wlroots manually
 
+also ignore warnings unless it kicks you out i just removed some exits to get it installed
+
 A collection of tools that is packaged into an easy to use script that is modifed to work with the Steam Deck running on other distros with arch and neptune kernel.
 * The main program that does all the heavy lifting is [Waydroid - a container-based approach to boot a full Android system on a regular GNU/Linux system.](https://github.com/waydroid/waydroid)
 * Waydroid Toolbox to easily toggle some configuration settings for Waydroid.
@@ -41,4 +43,4 @@ A collection of tools that is packaged into an easy to use script that is modife
 
 # forked: made compat with other distros running yay and pacman and neptune kernel 
 
-modded from:
+modded from: https://github.com/ryanrudolfoba/SteamOS-Waydroid-Installer
